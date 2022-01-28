@@ -13,6 +13,7 @@ raw_rdd.take(5)
 
 
 
+
 %matplotlib inline
 ax = airline_stats.toPandas().plot.bar('protocol_type', subplots = True, figsize=(10,25))
 ax[0].get_figure().savefig('report.png')
